@@ -14,11 +14,11 @@ namespace TextEditor
             Console.Clear();
             Console.WriteLine("O que deseja fazer ?");
             Console.WriteLine("1 - Abrir arquivo");
-            Thread.Sleep(0500);
+            Thread.Sleep(1000);
             Console.WriteLine("2 - Criar novo arquivo");
-            Thread.Sleep(0500);
+            Thread.Sleep(1000);
             Console.WriteLine("0 - Sair");
-            Thread.Sleep(0500);
+            Thread.Sleep(1000);
 
 
             short option = short.Parse(Console.ReadLine());
