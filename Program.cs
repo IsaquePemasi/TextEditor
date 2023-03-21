@@ -49,19 +49,22 @@ namespace TextEditor
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape);
 
-            Console.Write(text);
+            Salvar(text);
         }
 
         static void Salvar(string text)
         {
             Console.Clear();
-            Console.WriteLine("Qual caminho para salvar o arquivo? ");
+            Console.WriteLine("Qual caminho para salvar o arquivo? (Ex: C:/Users/Você/Desktop)");
             var path = Console.ReadLine();
 
             using (var file = new StreamWriter(path))
             {
                 file.Write(text);
             }
+            Console.WriteLine($"Arquivo {path} salvo com sucesso.");
+            Console.ReadLine();
+            Menu();
         }
     }
 }
