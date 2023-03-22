@@ -13,9 +13,10 @@ namespace TextEditor
         {
             Console.Clear();
             Console.WriteLine("O que deseja fazer ?");
-            Console.WriteLine("1 - Abrir arquivo");
+            Console.WriteLine("");
+            Console.WriteLine("1 - Abrir arquivo de texto");
             Thread.Sleep(1000);
-            Console.WriteLine("2 - Criar novo arquivo");
+            Console.WriteLine("2 - Criar novo arquivo de texto");
             Thread.Sleep(1000);
             Console.WriteLine("0 - Sair");
             Thread.Sleep(1000);
@@ -50,7 +51,10 @@ namespace TextEditor
         static void Editar()
         {
             Console.Clear();
-            Console.WriteLine("Digite seu texto abaixo (ESC para sair)");
+            Console.WriteLine("Digite seu texto abaixo: ");
+            Console.WriteLine("");
+            Console.WriteLine("(Aperte ENTER para pular linha)");
+            Console.WriteLine("(Aperte ESC para sair)");
             Console.WriteLine("---------------------------------------");
             string text = "";
 
@@ -67,7 +71,7 @@ namespace TextEditor
         static void Salvar(string text)
         {
             Console.Clear();
-            Console.WriteLine("Qual caminho para salvar o arquivo? (Ex: C:/Users/Você/Desktop)");
+            Console.WriteLine("QQual caminho para salvar o arquivo? (Ex: C:/Users/Você/Desktop/nomeDoArquivo.txt)");
             var path = Console.ReadLine();
 
             using (var file = new StreamWriter(path))
