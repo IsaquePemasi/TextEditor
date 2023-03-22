@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Isaque\\TextEditor\\TextEditor.csproj",
+      "projectUniqueName": "C:\\Users\\Isaque\\Desktop\\TextEditor\\TextEditor.csproj",
       "projectName": "TextEditor",
-      "projectPath": "C:\\Users\\Isaque\\TextEditor\\TextEditor.csproj",
+      "projectPath": "C:\\Users\\Isaque\\Desktop\\TextEditor\\TextEditor.csproj",
       "packagesPath": "C:\\Users\\Isaque\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Isaque\\TextEditor\\obj\\",
+      "outputPath": "C:\\Users\\Isaque\\Desktop\\TextEditor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Isaque\\AppData\\Roaming\\NuGet\\NuGet.Config"
